@@ -72,3 +72,13 @@ gcloud run deploy tiny-tcp-tunnel \
 
 ```
 
+
+```
+gcloud run services update tiny-tcp-tunnel \
+  --region=asia-northeast1 \
+  --max-instances=1 \
+  --min-instances=0 \
+  --timeout=3600
+
+```
+
