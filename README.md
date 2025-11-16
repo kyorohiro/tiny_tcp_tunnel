@@ -34,7 +34,7 @@ docker-repo: docker-repo
 image-id: tiny-tcp-tunnel-js
 ```
 
-#### プロジェクト選択
+#### Select GCP Project
 
 ```
 gcloud config set project tetorica
